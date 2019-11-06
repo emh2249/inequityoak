@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+<head>
+<link rel="stylesheet" type="text/css" href="style_Elaine.css">
+<script type="text/javascript" src="d3.min.js">
+</script>
+</head>
+
+
+
+<body>
+
+</br>
+</br>
+<div class="title">
+  <img class="titleimg" src="title2.png" alt="Title_Elaine">
+</br>
+</br>
+
+<img class="oakland" src="img/oakland.jpg" alt="img">
+</div>
+
+</br> </br>
+
+<div class="story">
+  <h2> pin-pointing inequity </h2>
+  <p> some text
+  </p>
+
+</div>
+
+
+<script type="text/javascript">
+var data = [
+  {"value": 100, "name": "alpha"},
+  {"value": 70, "name": "beta"},
+  {"value": 40, "name": "gamma"},
+  {"value": 15, "name": "delta"},
+  {"value": 5, "name": "epsilon"},
+  {"value": 1, "name": "zeta"}
+]
+d3plus.viz()
+  .container("#viz")
+  .data(data)
+  .type("pie")
+  .id("name")
+  .size("value")
+  .draw()
+</script>
+
+
+
+
+
+
+</body>
+</html>
